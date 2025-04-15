@@ -48,8 +48,8 @@ pip install -r requirements.txt
 ```
 
 3. Prepare the data:
-   - Download the UCF Crime dataset
-   - Extract I3D features
+   - Download the UCF-Crime Dataset: https://www.crcv.ucf.edu/chenchen/dataset.html
+   - Extract I3D features. You can also download extracted i3d features from here: https://drive.google.com/drive/folders/1PBgv7xwdxU9RQI9ePuWG1jTLBaKs0ETG?usp=drive_link
    - Organize them according to the expected directory structure
 
 ## Usage
