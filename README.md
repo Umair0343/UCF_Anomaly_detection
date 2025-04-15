@@ -36,11 +36,11 @@ anomaly-detection/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/anomaly-detection.git
-cd anomaly-detection
+git clone https://github.com/Umair0343/UCF_Anomaly_detection.git
+cd UCF_Anomaly_detection
 ```
 
-2. Create a virtual environment and install dependencies:
+2. Install dependencies:
 ```bash
 python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
@@ -65,7 +65,7 @@ python train.py
 With custom parameters:
 
 ```bash
-python train.py --data_dir /path/to/training/data --test_dir /path/to/test/data --epochs 20 --lr 0.0005
+python train.py --data_dir /path/to/training/data --test_dir /path/to/test/data --epochs 10 --lr 0.0005
 ```
 
 ### Testing
