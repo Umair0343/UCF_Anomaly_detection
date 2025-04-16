@@ -1,6 +1,7 @@
 # Video Anomaly Detection
-
-This repository contains an implementation of a deep learning model for anomaly detection in videos using the UCF Crime dataset. The model leverages clustering techniques and a Multi-Layer Perceptron (MLP) architecture to identify anomalous events in video segments.
+CLAWS: Clustering Assisted Weakly Supervised Learning with Normalcy Suppression for Anomalous Event Detection
+Paper link: https://arxiv.org/abs/2011.12077
+This repository contains an implementation of a deep learning model for anomaly detection in videos using the UCF Crime dataset, for the research paper mentioned above. The model leverages clustering techniques and a Multi-Layer Perceptron (MLP) architecture to identify anomalous events in video segments.
 
 ## Features
 
