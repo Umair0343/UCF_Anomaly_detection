@@ -23,6 +23,7 @@ The model consists of the following components:
 
 ```
 anomaly-detection/
+├── UCF_Models/            # Pre-trained models
 ├── data/                  # Data directory (not included in repository)
 ├── models/                # Model architecture definitions
 ├── datasets/              # Dataset handling code
@@ -30,6 +31,7 @@ anomaly-detection/
 ├── train.py               # Training script
 ├── test.py                # Testing script
 ├── config.py              # Configuration parameters
+├── video_gen.py           # Code to print anomaly score on videos
 ├── requirements.txt       # Dependencies
 └── README.md              # This file
 ```
@@ -80,20 +82,9 @@ python test.py --model_path /path/to/model.pth --results_dir results
 
 ## Results
 
-The model's performance is evaluated using the AUC metric. The ROC curve and other visualizations are saved to the specified results directory after testing.
-
-## Citation
-
-If you use this code in your research, please cite:
-
-```
-@article{anomaly_detection,
-  title={Video Anomaly Detection with Clustering-based Feature Learning},
-  author={Your Name},
-  journal={arXiv preprint},
-  year={2023}
-}
-```
+The model's performance is evaluated using the AUC metric.
+AUC in paper: 83.03%
+Best AUC achieved by this code: 78.51%
 
 ## License
 
