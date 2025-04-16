@@ -1,5 +1,4 @@
-# Video Anomaly Detection
-## CLAWS: Clustering Assisted Weakly Supervised Learning with Normalcy Suppression for Anomalous Event Detection
+# CLAWS: Clustering Assisted Weakly Supervised Learning with Normalcy Suppression for Anomalous Event Detection
 
 Paper link: https://arxiv.org/abs/2011.12077
 
