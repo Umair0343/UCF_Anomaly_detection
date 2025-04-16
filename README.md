@@ -83,8 +83,8 @@ python test.py --model_path /path/to/model.pth --results_dir results
 ## Results
 
 The model's performance is evaluated using the AUC metric.
-AUC in paper: 83.03%
-Best AUC achieved by this code: 78.51%
+- AUC in paper: 83.03%
+- Best AUC achieved by this code: 78.51%
 
 ## Visualiztion
 video_gen.py code can be used to generate visualization of anomaly scores on videos. Please update the file paths in this code.
