@@ -86,6 +86,10 @@ The model's performance is evaluated using the AUC metric.
 AUC in paper: 83.03%
 Best AUC achieved by this code: 78.51%
 
+## Visualiztion
+video_gen.py code can be used to generate visualization of anomaly scores on videos. Please update the file paths in this code.
+Drive link for testing videos: https://drive.google.com/drive/folders/1BqqWltBFCsgIuEQpEg-VP1s1cjVClPd6?usp=drive_link
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
