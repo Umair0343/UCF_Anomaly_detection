@@ -22,13 +22,13 @@ The model consists of the following components:
 ## Model Architectures Layers code with line numbers:
 ### BBN:
 The code for BBN is available inside **models/bbn.py**
-NSM1 is implemented from line numbers 5–13
-NSM2 is implemented form line numbers 15–23
-BBN is implemented from 25–53
+- NSM1 is implemented from line numbers 5–13
+- NSM2 is implemented form line numbers 15–23
+- BBN is implemented from 25–53
 
 ### Clustering:
 The code for clustering is available inside **models/clustering.py**
-Clustering is implemented from line numbers 7–64
+- Clustering is implemented from line numbers 7–64
 
 ## Project Structure
 
