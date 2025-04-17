@@ -15,9 +15,20 @@ This repository contains an implementation of a deep learning model for anomaly 
 
 The model consists of the following components:
 
-1. **BBN (Backbone Network)**: A neural network with two attention modules (NSB1 and NSB2) that handle feature weighting
+1. **BBN (Backbone Network)**: A neural network with two attention modules (NSM1 and NSM2) that handle feature weighting. 
 2. **Clustering Module**: Utilizes K-means clustering to separate normal and anomalous patterns
 3. **Loss Function**: Combines regression loss, temporal smoothness, sparsity, and clustering-based loss
+
+## Model Architectures Layers code with line numbers:
+### BBN:
+The code for BBN is available inside **models/bbn.py**
+NSM1 is implemented from line numbers 5–13
+NSM2 is implemented form line numbers 15–23
+BBN is implemented from 25–53
+
+### Clustering:
+The code for clustering is available inside **models/clustering.py**
+Clustering is implemented from line numbers 7–64
 
 ## Project Structure
 
