@@ -30,6 +30,10 @@ The code for BBN is available inside **models/bbn.py**
 The code for clustering is available inside **models/clustering.py**
 - Clustering is implemented from line numbers 7–64
 
+### Loss module:
+The code is available inside **utils/loss.py**
+- Line numbers 5–38
+
 ## Project Structure
 
 ```
